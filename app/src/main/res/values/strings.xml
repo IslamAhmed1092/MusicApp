@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="getStartedButton">Get Started</string>
+    <string name="tabHome">Home</string>
+    <string name="tabAlbums">Albums</string>
+    <string name="tabFavourites">Favourites</string>
+    <string name="tabSearch">Search</string>
+    <string name="searchHint">Song</string>
+    <string name="albumName">Album Name</string>
+    <string name="albumImage">Album Image</string>
+    <string name="songImage">Song Image</string>
+    <string name="favouriteDescription">Add to Favourites</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>

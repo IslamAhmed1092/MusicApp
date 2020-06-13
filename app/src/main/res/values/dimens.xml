@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tabIndecatorHeight">2dp</dimen>
+    <dimen name="smallPadding">8dp</dimen>
+    <dimen name="customButtonRadius">50dip</dimen>
+    <dimen name="startActivityMargin">32dp</dimen>
+    <dimen name="songHeight">88dp</dimen>
+    <dimen name="songImageWidth">88dp</dimen>
+    <dimen name="favouriteIconMargin">8dp</dimen>
+    <dimen name="albumCardWidth">140dp</dimen>
+    <dimen name="albumCardHeight">200dp</dimen>
+    <dimen name="albumCardRadius">8dp</dimen>
+    <dimen name="albumCardMargin">20dp</dimen>
+    <dimen name="albumImageMargin">4dp</dimen>
+    <dimen name="playingSongImageSize">250dp</dimen>
+</resources>

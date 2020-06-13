@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/songHeight"
+    android:background="@color/tabContentColor"
+    android:minHeight="88dp" >
+
+    <ImageView
+        android:id="@+id/song_image"
+        android:layout_width="@dimen/songImageWidth"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/songImage"
+        android:layout_marginTop="1dp"
+        android:background="@color/appBackground"
+        android:src="@drawable/ic_music_note_256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="@dimen/smallPadding"
+        android:orientation="vertical"
+        android:layout_marginTop="1dp"
+        android:background="@color/appBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/favourite"
+        app:layout_constraintStart_toEndOf="@+id/song_image"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="Artist" />
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="Song Name" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/favourite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/appBackground"
+        android:contentDescription="@string/favouriteDescription"
+        android:layout_marginTop="1dp"
+        android:padding="@dimen/smallPadding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_favorite_24dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
